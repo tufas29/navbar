@@ -3,7 +3,7 @@ import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { FiMenu } from "react-icons/fi"
-import { GrClose } from "react-icons/GR"
+import { GrClose } from "react-icons/gr"
 
 const Nav = () => {
   const [open, setOpen] = useState(false)
